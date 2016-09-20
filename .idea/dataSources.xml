@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1107040899">
+    <data-source source="LOCAL" name="HSQLDB (Remote) - snooker@localhost" uuid="0b44c751-4feb-4921-9bcf-8dead411ecee">
+      <driver-ref>hsqldb.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:hsql://localhost:9001/snooker</jdbc-url>
+    </data-source>
+  </component>
+</project>
