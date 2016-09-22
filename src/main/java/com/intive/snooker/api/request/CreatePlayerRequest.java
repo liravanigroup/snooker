@@ -1,5 +1,6 @@
-package com.intive.snooker.api;
+package com.intive.snooker.api.request;
 
+import com.intive.snooker.api.dto.PlayerDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,4 +13,8 @@ import lombok.Setter;
 @AllArgsConstructor
 public class CreatePlayerRequest {
     private PlayerDto player;
+
+    public void validate() {
+        player.validate();
+    }
 }
